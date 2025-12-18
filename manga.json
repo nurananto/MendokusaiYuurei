@@ -15,8 +15,8 @@
       "Mystery",
       "Ghost"
     ],
-    "status": "Ongoing",
-    "views": 246,
+    "status": "ONGOING",
+    "views": 303,
     "links": {
       "mangadex": "https://mangadex.org/title/f2923e0c-8b5e-4758-86ab-5aecc9f6689f/mendokusai-yurei-desu-ga-watashi-to-koi-shite-kuremasu-ka",
       "raw": "https://bookwalker.jp/series/517234/"
@@ -24,7 +24,8 @@
     "repoUrl": "https://raw.githubusercontent.com/nurananto/MendokusaiYuurei/main/",
     "imagePrefix": "Image",
     "imageFormat": "webp",
-    "lockedChapters": []
+    "lockedChapters": [],
+    "type": "webtoon"
   },
   "chapters": {
     "1": {
@@ -35,7 +36,7 @@
       "totalPages": 40,
       "pages": 40,
       "locked": false,
-      "views": 90
+      "views": 115
     },
     "2": {
       "title": "Chapter 2",
@@ -45,7 +46,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 33
+      "views": 44
     },
     "3": {
       "title": "Chapter 3",
@@ -55,7 +56,7 @@
       "totalPages": 40,
       "pages": 40,
       "locked": false,
-      "views": 28
+      "views": 35
     },
     "4": {
       "title": "Chapter 4",
@@ -65,7 +66,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 27
+      "views": 34
     },
     "5": {
       "title": "Chapter 5",
@@ -75,7 +76,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 29
+      "views": 37
     },
     "6": {
       "title": "Chapter 6",
@@ -85,7 +86,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 50
+      "views": 61
     },
     "7": {
       "title": "Chapter 7",
@@ -95,9 +96,9 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 91
+      "views": 113
     }
   },
-  "lastUpdated": "2025-12-12T00:31:42+07:00",
+  "lastUpdated": "2025-12-18T00:28:30+07:00",
   "lastChapterUpdate": "2025-12-02T20:07:07+07:00"
 }
