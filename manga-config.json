@@ -26,5 +26,7 @@
   "repoName": "MendokusaiYuurei",
   "imagePrefix": "Image",
   "imageFormat": "webp",
-  "lockedChapters": []
+  "lockedChapters": [
+    "11"
+  ]
 }
