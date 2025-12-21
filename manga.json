@@ -16,7 +16,7 @@
       "Ghost"
     ],
     "status": "ONGOING",
-    "views": 528,
+    "views": 542,
     "links": {
       "mangadex": "https://mangadex.org/title/f2923e0c-8b5e-4758-86ab-5aecc9f6689f/mendokusai-yurei-desu-ga-watashi-to-koi-shite-kuremasu-ka",
       "raw": "https://bookwalker.jp/series/517234/"
@@ -36,7 +36,7 @@
       "totalPages": 40,
       "pages": 40,
       "locked": false,
-      "views": 179
+      "views": 181
     },
     "2": {
       "title": "Chapter 2",
@@ -106,7 +106,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 82
+      "views": 84
     },
     "9": {
       "title": "Chapter 9",
@@ -116,7 +116,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 105
+      "views": 107
     },
     "10": {
       "title": "Chapter 10",
@@ -126,9 +126,19 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
+      "views": 10
+    },
+    "11": {
+      "title": "Chapter 11",
+      "chapter": 11,
+      "folder": "11",
+      "uploadDate": "2025-12-21T21:03:28+07:00",
+      "totalPages": 32,
+      "pages": 32,
+      "locked": true,
       "views": 0
     }
   },
-  "lastUpdated": "2025-12-21T19:26:22+07:00",
-  "lastChapterUpdate": "2025-12-21T19:21:18+07:00"
+  "lastUpdated": "2025-12-21T21:04:20+07:00",
+  "lastChapterUpdate": "2025-12-21T21:03:28+07:00"
 }
