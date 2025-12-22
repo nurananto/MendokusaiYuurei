@@ -22,6 +22,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
+const https = require('https');  // ← TAMBAHKAN INI!
 
 // ============================================
 // CONSTANTS
@@ -355,24 +356,28 @@ function generateChaptersData(config, oldMangaData, isFirstTime) {
         console.log(`${lockIcon}${typeIcon} ${chapterName} - ${totalPages} pages - ${dateStr} - ${views} views`);
     });
     
-    const updatedLockedChapters = config.lockedChapters.filter(chapterName => {
-        const folderExists = checkIfFolderExists(chapterName);
-        const totalPages = folderExists ? getTotalPagesFromManifest(chapterName) : 0;
-        return totalPages === 0;
-    });
-    
-    if (updatedLockedChapters.length !== config.lockedChapters.length) {
-        console.log('\n🔓 Auto-removing uploaded chapters from lockedChapters...');
-        const removed = config.lockedChapters.filter(ch => !updatedLockedChapters.includes(ch));
-        console.log(`   Removed: ${removed.join(', ')}`);
+// ✅ AUTO-CLEANUP: Hanya untuk type MANGA
+    if (config.type !== 'webtoon') {
+        const updatedLockedChapters = config.lockedChapters.filter(chapterName => {
+            const folderExists = checkIfFolderExists(chapterName);
+            const totalPages = folderExists ? getTotalPagesFromManifest(chapterName) : 0;
+            return totalPages === 0;
+        });
         
-        config.lockedChapters = updatedLockedChapters;
-        
-        if (saveJSON('manga-config.json', config)) {
-            console.log('✅ manga-config.json updated');
+        if (updatedLockedChapters.length !== config.lockedChapters.length) {
+            console.log('\n🔓 Auto-removing uploaded chapters from lockedChapters...');
+            const removed = config.lockedChapters.filter(ch => !updatedLockedChapters.includes(ch));
+            console.log(`   Removed: ${removed.join(', ')}`);
+            
+            config.lockedChapters = updatedLockedChapters;
+            
+            if (saveJSON('manga-config.json', config)) {
+                console.log('✅ manga-config.json updated');
+            }
         }
+    } else {
+        console.log('\nℹ️  Type: webtoon - locked chapters managed manually');
     }
-    
     let lastChapterUpdate = null;
     
     const allChapterDates = Object.values(chapters).map(ch => ({
@@ -681,7 +686,7 @@ function commandUpdateChapterViews() {
 // ============================================
 
 async function syncCodesFromCloudflare() {
-    try {
+    try {  // ← TAMBAHKAN INI! (Hilang di script Anda)
         console.log('🔄 Syncing codes from Cloudflare KV...');
         
         if (!fs.existsSync('manga-config.json')) {
@@ -726,6 +731,7 @@ async function syncCodesFromCloudflare() {
                 }));
             }).on('error', reject);
         }); 
+        
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}`);
         }
