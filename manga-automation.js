@@ -685,6 +685,10 @@ function commandUpdateChapterViews() {
 // COMMAND 5: SYNC CODES FROM CLOUDFLARE (WEBTOON ONLY)
 // ============================================
 
+// ============================================
+// COMMAND 5: SYNC CODES FROM CLOUDFLARE (WEBTOON ONLY)
+// ============================================
+
 async function syncCodesFromCloudflare() {
     try {
         console.log('🔄 Syncing codes from Cloudflare KV...');
@@ -718,11 +722,21 @@ async function syncCodesFromCloudflare() {
         console.log(`📡 Fetching codes from: ${workerUrl}`);
         
         const url = new URL(workerUrl);
-        url.searchParams.append('action', 'getAllCodes');
-        url.searchParams.append('repoName', mangaConfig.repoName);
+        const postData = JSON.stringify({
+            action: 'listCodes',
+            repoName: mangaConfig.repoName
+        });
 
         const response = await new Promise((resolve, reject) => {
-            https.get(url, (res) => {
+            const options = {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Content-Length': Buffer.byteLength(postData)
+                }
+            };
+
+            const req = https.request(url, options, (res) => {
                 let data = '';
                 res.on('data', chunk => data += chunk);
                 res.on('end', () => resolve({
@@ -730,8 +744,12 @@ async function syncCodesFromCloudflare() {
                     ok: res.statusCode === 200,
                     json: async () => JSON.parse(data)
                 }));
-            }).on('error', reject);
-        }); 
+            });
+
+            req.on('error', reject);
+            req.write(postData);
+            req.end();
+        });
         
         if (!response.ok) {
             throw new Error(`HTTP ${response.statusCode}`);
