@@ -686,7 +686,7 @@ function commandUpdateChapterViews() {
 // ============================================
 
 async function syncCodesFromCloudflare() {
-    try {  // ← TAMBAHKAN INI! (Hilang di script Anda)
+    try {
         console.log('🔄 Syncing codes from Cloudflare KV...');
         
         if (!fs.existsSync('manga-config.json')) {
@@ -726,6 +726,7 @@ async function syncCodesFromCloudflare() {
                 let data = '';
                 res.on('data', chunk => data += chunk);
                 res.on('end', () => resolve({
+                    statusCode: res.statusCode,
                     ok: res.statusCode === 200,
                     json: async () => JSON.parse(data)
                 }));
@@ -733,7 +734,7 @@ async function syncCodesFromCloudflare() {
         }); 
         
         if (!response.ok) {
-            throw new Error(`HTTP ${response.status}`);
+            throw new Error(`HTTP ${response.statusCode}`);
         }
         
         const data = await response.json();
