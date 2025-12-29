@@ -16,7 +16,7 @@
       "Ghost"
     ],
     "status": "ONGOING",
-    "views": 757,
+    "views": 764,
     "links": {
       "mangadex": "https://mangadex.org/title/f2923e0c-8b5e-4758-86ab-5aecc9f6689f/mendokusai-yurei-desu-ga-watashi-to-koi-shite-kuremasu-ka",
       "raw": "https://bookwalker.jp/series/517234/"
@@ -36,7 +36,7 @@
       "totalPages": 40,
       "pages": 40,
       "locked": false,
-      "views": 233
+      "views": 234
     },
     "2": {
       "title": "Chapter 2",
@@ -126,7 +126,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 122
+      "views": 124
     },
     "11": {
       "title": "Chapter 11",
@@ -136,9 +136,9 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 76
+      "views": 80
     }
   },
-  "lastUpdated": "2025-12-29T11:11:37+07:00",
+  "lastUpdated": "2025-12-30T00:24:35+07:00",
   "lastChapterUpdate": "2025-12-21T21:03:28+07:00"
 }
