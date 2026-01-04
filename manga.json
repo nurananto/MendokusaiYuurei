@@ -16,7 +16,7 @@
       "Ghost"
     ],
     "status": "ONGOING",
-    "views": 830,
+    "views": 837,
     "links": {
       "mangadex": "https://mangadex.org/title/f2923e0c-8b5e-4758-86ab-5aecc9f6689f/mendokusai-yurei-desu-ga-watashi-to-koi-shite-kuremasu-ka",
       "raw": "https://bookwalker.jp/series/517234/"
@@ -36,7 +36,7 @@
       "totalPages": 40,
       "pages": 40,
       "locked": false,
-      "views": 254
+      "views": 256
     },
     "2": {
       "title": "Chapter 2",
@@ -46,7 +46,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 113
+      "views": 114
     },
     "3": {
       "title": "Chapter 3",
@@ -56,7 +56,7 @@
       "totalPages": 40,
       "pages": 40,
       "locked": false,
-      "views": 103
+      "views": 104
     },
     "4": {
       "title": "Chapter 4",
@@ -66,7 +66,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 87
+      "views": 88
     },
     "5": {
       "title": "Chapter 5",
@@ -76,7 +76,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 94
+      "views": 95
     },
     "6": {
       "title": "Chapter 6",
@@ -86,7 +86,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 108
+      "views": 109
     },
     "7": {
       "title": "Chapter 7",
@@ -96,7 +96,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 186
+      "views": 187
     },
     "8": {
       "title": "Chapter 8",
@@ -106,7 +106,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 121
+      "views": 122
     },
     "9": {
       "title": "Chapter 9",
@@ -116,7 +116,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 172
+      "views": 173
     },
     "10": {
       "title": "Chapter 10",
@@ -126,7 +126,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 145
+      "views": 146
     },
     "11": {
       "title": "Chapter 11",
@@ -136,9 +136,9 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 125
+      "views": 127
     }
   },
-  "lastUpdated": "2026-01-04T00:22:57+07:00",
+  "lastUpdated": "2026-01-05T00:23:20+07:00",
   "lastChapterUpdate": "2025-12-21T21:03:28+07:00"
 }
