@@ -16,7 +16,7 @@
       "Ghost"
     ],
     "status": "ONGOING",
-    "views": 1274,
+    "views": 1304,
     "links": {
       "mangadex": "https://mangadex.org/title/f2923e0c-8b5e-4758-86ab-5aecc9f6689f/mendokusai-yurei-desu-ga-watashi-to-koi-shite-kuremasu-ka",
       "raw": "https://bookwalker.jp/series/517234/"
@@ -41,7 +41,7 @@
       "totalPages": 40,
       "pages": 40,
       "locked": false,
-      "views": 349
+      "views": 353
     },
     "2": {
       "title": "Chapter 2",
@@ -51,7 +51,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 155
+      "views": 156
     },
     "3": {
       "title": "Chapter 3",
@@ -61,7 +61,7 @@
       "totalPages": 40,
       "pages": 40,
       "locked": false,
-      "views": 131
+      "views": 132
     },
     "4": {
       "title": "Chapter 4",
@@ -71,7 +71,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 117
+      "views": 118
     },
     "5": {
       "title": "Chapter 5",
@@ -81,7 +81,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 122
+      "views": 123
     },
     "6": {
       "title": "Chapter 6",
@@ -91,7 +91,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 133
+      "views": 134
     },
     "7": {
       "title": "Chapter 7",
@@ -101,7 +101,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 214
+      "views": 216
     },
     "8": {
       "title": "Chapter 8",
@@ -111,7 +111,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 148
+      "views": 149
     },
     "9": {
       "title": "Chapter 9",
@@ -121,7 +121,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 202
+      "views": 203
     },
     "10": {
       "title": "Chapter 10",
@@ -131,7 +131,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 182
+      "views": 183
     },
     "11": {
       "title": "Chapter 11",
@@ -141,7 +141,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 279
+      "views": 284
     },
     "12": {
       "title": "Chapter 12",
@@ -151,7 +151,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": true,
-      "views": 66
+      "views": 77
     },
     "13": {
       "title": "Chapter 13",
@@ -161,7 +161,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": true,
-      "views": 44
+      "views": 47
     },
     "14": {
       "title": "Chapter 14",
@@ -171,7 +171,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": true,
-      "views": 3
+      "views": 6
     },
     "15": {
       "title": "Chapter 15",
@@ -181,9 +181,9 @@
       "totalPages": 32,
       "pages": 32,
       "locked": true,
-      "views": 6
+      "views": 13
     }
   },
-  "lastUpdated": "2026-02-20T00:53:05+07:00",
+  "lastUpdated": "2026-02-21T00:42:38+07:00",
   "lastChapterUpdate": "2026-02-19T14:56:47+07:00"
 }
