@@ -16,7 +16,7 @@
       "Ghost"
     ],
     "status": "ONGOING",
-    "views": 1473,
+    "views": 1506,
     "links": {
       "mangadex": "https://mangadex.org/title/f2923e0c-8b5e-4758-86ab-5aecc9f6689f/mendokusai-yurei-desu-ga-watashi-to-koi-shite-kuremasu-ka",
       "raw": "https://bookwalker.jp/series/517234/"
@@ -40,7 +40,7 @@
       "totalPages": 40,
       "pages": 40,
       "locked": false,
-      "views": 373
+      "views": 377
     },
     "2": {
       "title": "Chapter 2",
@@ -50,7 +50,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 166
+      "views": 169
     },
     "3": {
       "title": "Chapter 3",
@@ -60,7 +60,7 @@
       "totalPages": 40,
       "pages": 40,
       "locked": false,
-      "views": 138
+      "views": 141
     },
     "4": {
       "title": "Chapter 4",
@@ -70,7 +70,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 124
+      "views": 125
     },
     "5": {
       "title": "Chapter 5",
@@ -80,7 +80,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 127
+      "views": 128
     },
     "6": {
       "title": "Chapter 6",
@@ -90,7 +90,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 139
+      "views": 140
     },
     "7": {
       "title": "Chapter 7",
@@ -100,7 +100,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 220
+      "views": 221
     },
     "8": {
       "title": "Chapter 8",
@@ -140,7 +140,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 300
+      "views": 303
     },
     "12": {
       "title": "Chapter 12",
@@ -150,7 +150,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 85
+      "views": 88
     },
     "13": {
       "title": "Chapter 13",
@@ -180,9 +180,9 @@
       "totalPages": 32,
       "pages": 32,
       "locked": true,
-      "views": 25
+      "views": 27
     }
   },
-  "lastUpdated": "2026-02-27T19:00:36.064Z",
+  "lastUpdated": "2026-02-28T19:00:24.152Z",
   "lastChapterUpdate": "2026-02-19T14:56:47+07:00"
 }
