@@ -16,7 +16,7 @@
       "Ghost"
     ],
     "status": "ONGOING",
-    "views": 1548,
+    "views": 1585,
     "links": {
       "mangadex": "https://mangadex.org/title/f2923e0c-8b5e-4758-86ab-5aecc9f6689f/mendokusai-yurei-desu-ga-watashi-to-koi-shite-kuremasu-ka",
       "raw": "https://bookwalker.jp/series/517234/"
@@ -40,7 +40,7 @@
       "totalPages": 40,
       "pages": 40,
       "locked": false,
-      "views": 386
+      "views": 393
     },
     "2": {
       "title": "Chapter 2",
@@ -50,7 +50,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 170
+      "views": 173
     },
     "3": {
       "title": "Chapter 3",
@@ -140,7 +140,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 307
+      "views": 308
     },
     "12": {
       "title": "Chapter 12",
@@ -150,7 +150,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": false,
-      "views": 96
+      "views": 100
     },
     "13": {
       "title": "Chapter 13",
@@ -160,7 +160,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": true,
-      "views": 53
+      "views": 54
     },
     "14": {
       "title": "Chapter 14",
@@ -170,7 +170,7 @@
       "totalPages": 32,
       "pages": 32,
       "locked": true,
-      "views": 15
+      "views": 16
     },
     "15": {
       "title": "Chapter 15",
@@ -180,9 +180,9 @@
       "totalPages": 32,
       "pages": 32,
       "locked": true,
-      "views": 30
+      "views": 33
     }
   },
-  "lastUpdated": "2026-02-28T19:00:24.152Z",
+  "lastUpdated": "2026-03-02T17:00:45.158Z",
   "lastChapterUpdate": "2026-02-19T14:56:47+07:00"
 }
