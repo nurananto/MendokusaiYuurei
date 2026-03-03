@@ -13,9 +13,7 @@
 | Author | Shiogama Ume |
 | Artist | Kurosaki Koko |
 | Tipe | Webtoon (Berwarna) |
-| Status | Ongoing |
 | Genre | Seinen · Comedy · Drama · Romance · Horror · Mystery · Ghost |
-| Chapter | 15 chapter (3 locked) |
 
 ## Link
 
