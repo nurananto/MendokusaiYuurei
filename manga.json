@@ -25,8 +25,6 @@
     "imagePrefix": "Image",
     "imageFormat": "webp",
     "lockedChapters": [
-      "13",
-      "14",
       "15"
     ],
     "type": "webtoon"
@@ -159,7 +157,7 @@
       "uploadDate": "2026-02-13T21:53:27+07:00",
       "totalPages": 32,
       "pages": 32,
-      "locked": true,
+      "locked": false,
       "views": 58
     },
     "14": {
@@ -169,7 +167,7 @@
       "uploadDate": "2026-02-19T11:58:18+07:00",
       "totalPages": 32,
       "pages": 32,
-      "locked": true,
+      "locked": false,
       "views": 17
     },
     "15": {
@@ -183,6 +181,6 @@
       "views": 34
     }
   },
-  "lastUpdated": "2026-03-03T19:01:42.870Z",
+  "lastUpdated": "2026-03-04T20:55:26+07:00",
   "lastChapterUpdate": "2026-02-19T14:56:47+07:00"
 }
