@@ -107,7 +107,7 @@ jobs:
           echo "[SUCCESS] Found cover URL: $COVER_URL"
           
           # Validate it's an R2 URL
-          if [[ "$COVER_URL" == *"r2.cloudflarestorage.com"* ]] || [[ "$COVER_URL" == *".r2.dev"* ]] || [[ "$COVER_URL" == *"cdn.nuranantoscans.my.id"* ]]; then
+          if [[ "$COVER_URL" == *"r2.cloudflarestorage.com"* ]] || [[ "$COVER_URL" == *".r2.dev"* ]] || [[ "$COVER_URL" == *"img.nuranantoscans.my.id"* ]]; then
             echo "[VALID] R2 URL detected"
           else
             echo "[WARN] URL is not from R2, but will proceed"
